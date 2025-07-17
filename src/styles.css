@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  background-color: #0a0e21;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header, nav, main {
+  padding: 1rem 2rem;
+}
+
+header {
+  background-color: #1c1f2d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+header img {
+  height: 64px;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 2rem;
+  background: linear-gradient(to right, #ffe600, #ff9900, #ff1493);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav {
+  background-color: #1c1f2d;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.1rem;
+}
+
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #2e3145;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background-color: #22263a;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.card-icon {
+  font-size: 1.8rem;
+}
+
+.card-title {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.card-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.dashboard-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding: 0.75rem;
+  background-color: #1c1f2d;
+  margin-top: 0.5rem;
+  border-radius: 6px;
+}
+
+.dashboard-row:hover {
+  background-color: #2a2e42;
+}
+
+.dashboard-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding: 0.75rem;
+  background-color: #2e3145;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #ffeb3b;
+}
+
+
+.search-input,
+.filter-slider {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.controls-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.input {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #005fa3;
+}
+
+.search-bar {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 6px;
+  background-color: #22263a;
+  border: 1px solid #555;
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: #f0f0f0;
+  font-size: 0.85rem;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.updated-label {
+  font-size: 0.9rem;
+  margin-top: 8px;
+  color: #aaa;
+}
+
+.loading-message {
+  font-size: 0.9rem;
+  color: #ffa500;
+  margin-top: 6px;
+}
+
