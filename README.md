@@ -56,7 +56,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://cdn.loom.com/sessions/thumbnails/d5f58c71b23247059a13acb769b031b1-8f4b86b6e5c485a8-full-play.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[https://cdn.loom.com/sessions/thumbnails/d5f58c71b23247059a13acb769b031b1-8f4b86b6e5c485a8-full-play.gif](https://cdn.loom.com/sessions/thumbnails/d5f58c71b23247059a13acb769b031b1-8f4b86b6e5c485a8-full-play.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 GIF created with Loom 
