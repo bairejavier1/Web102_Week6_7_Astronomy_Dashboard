@@ -1,11 +1,11 @@
+// src/components/DashboardList.jsx
+import { Link } from "react-router-dom";
 import DashboardRow from "./DashboardRow";
 
 const DashboardList = ({ items }) => (
-  <div className="mt-4">
+  <div className="dashboard-wrapper">
     {items.length === 0 ? (
-      <p>
-        No results match your search. Try one of: "clear", "cloud", "rain", "snow", "fog", "mist", "drizzle", "thunderstorm", "haze", "overcast".
-      </p>
+      <p>No matching forecasts found. Try searching for: "clear", "fog", "rain", etc.</p>
     ) : (
       <>
         <div className="dashboard-header">
@@ -14,9 +14,18 @@ const DashboardList = ({ items }) => (
           <span>Temperature</span>
           <span>Moon Phase</span>
           <span>Condition</span>
+          <span>Details</span>
         </div>
         {items.map((item, index) => (
-          <DashboardRow key={`${item.date}-${index}`} item={item} />
+          <Link
+            key={index}
+            to={`/details/${item.date}`}
+            state={{ item }}
+            style={{ textDecoration: "none", color: "inherit" }}
+            title="View forecast details"
+          >
+            <DashboardRow item={item} />
+          </Link>
         ))}
       </>
     )}
