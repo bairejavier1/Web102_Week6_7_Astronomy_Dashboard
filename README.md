@@ -53,7 +53,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://cdn.loom.com/sessions/thumbnails/f0a66f1c32af4e6894af3cb86ce9c90e-683322f52ba61609-full-play.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 GIF created with Loom
